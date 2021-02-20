@@ -1,0 +1,42 @@
+{
+  "name": "moonlit",
+  "displayName": "moonlit",
+  "description": "A dark theme represent the color of an asteroid",
+  "version": "0.0.1",
+  "publisher": "Mikeul",
+  "author": {
+    "name": "Mikhael Esa Surya Wijaya",
+    "url": "https://instagram.com/_mikeul"
+  },
+  "engines": {
+    "vscode": "^1.53.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "dark",
+    "vscode theme",
+    "Mikeul Theme",
+    "mikeul theme",
+    "mikeul",
+    "Mikeul",
+    "Mikeul theme"
+  ],
+  "repository": {
+    "url": "https://github.com/Mikeultron/moonlit",
+    "type": "git"
+  },
+  "icon": "images/Moonlit-Icon.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "moonlit",
+        "uiTheme": "vs-dark",
+        "path": "./themes/moonlit-color-theme.json"
+      }
+    ]
+  }
+}
